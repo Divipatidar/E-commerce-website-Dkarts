@@ -1,0 +1,100 @@
+.payment{
+    background-color: white;
+}
+.payment_container >h1{
+    text-align: center;
+    padding-left: 10px;
+    font-weight: 400;
+    background-color: rgb(234,237,237);
+    border-bottom: 1px solid lightgray;
+}
+.payment_container >h1 a{
+    text-decoration: none;
+}
+.payment_section{
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+.payment_title{
+    flex: 0.2;
+}
+.payment_address,.payment_items,.payment_details{
+    flex: 0.8;
+}
+.payment_details>form{
+    max-width: 400px;
+}
+.payment_details>h3{
+    padding-bottom: 20px;
+}
+.payment_details > form >div>button{
+    background: #f0c14b;
+    border-radius: 25px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-color: hsl(43, 53%, 43%) #9c7e31 #846a29;
+    color: #111;
+    cursor: pointer;
+}
+.payment_info{
+    max-width: 600px;
+}
+.payment_info > p {
+	margin: 10px 5px;
+    margin-top: 5px;
+    display: grid;
+
+}
+.payment_info > p > input {
+	background:white;
+	border-radius: 20px;
+    width: 400px;
+	padding: 5px;
+	/* border:none; */
+	color:black;
+    margin-top: 5px;
+}
+.text {
+	float:right;
+    /* padding-left: 10px; */
+}
+.disclaimer {
+	font-size: 10px;
+	opacity: 0.8;
+	margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+	.payment_section {
+		flex-direction: column;
+		padding: 20px 0px;
+	}
+	.payment_title,
+	.payment_items,
+	.payment_address,
+	.payment_details {
+		flex: 1;
+		flex-basis: 100%;
+	}
+    .payment_info > p {
+		margin: 10px 0px;
+		width: 100%;
+	}
+
+	.text {
+		float: unset;
+		width: calc(100% - 10px);
+	}
+
+	.payment_info {
+		max-width: unset;
+	}
+}
