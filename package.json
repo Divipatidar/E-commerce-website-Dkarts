@@ -4,7 +4,7 @@
 
   "version": "0.1.0",
 
-  "private":true,
+  "private": true,
 
   "dependencies": {
 
@@ -44,7 +44,6 @@
 
   "scripts": {
 
-    
     "start": "react-scripts start",
 
     "build": "react-scripts build",
@@ -94,8 +93,6 @@
   "devDependencies": {
 
     "@types/stripe": "^8.0.417",
-
-    "gh-pages": "^5.0.0",
 
     "vitals": "^0.1.2",
 
