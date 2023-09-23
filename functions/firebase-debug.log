@@ -1,57 +1,67 @@
-[debug] [2023-07-01T11:41:09.074Z] ----------------------------------------------------------------------
-[debug] [2023-07-01T11:41:09.079Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
-[debug] [2023-07-01T11:41:09.079Z] CLI Version:   12.4.2
-[debug] [2023-07-01T11:41:09.079Z] Platform:      win32
-[debug] [2023-07-01T11:41:09.079Z] Node Version:  v16.17.1
-[debug] [2023-07-01T11:41:09.184Z] Time:          Sat Jul 01 2023 17:11:09 GMT+0530 (India Standard Time)
-[debug] [2023-07-01T11:41:09.185Z] ----------------------------------------------------------------------
+[debug] [2023-09-09T08:25:01.892Z] ----------------------------------------------------------------------
+[debug] [2023-09-09T08:25:01.895Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-09-09T08:25:01.896Z] CLI Version:   12.4.2
+[debug] [2023-09-09T08:25:01.896Z] Platform:      win32
+[debug] [2023-09-09T08:25:01.896Z] Node Version:  v16.17.1
+[debug] [2023-09-09T08:25:01.897Z] Time:          Sat Sep 09 2023 13:55:01 GMT+0530 (India Standard Time)
+[debug] [2023-09-09T08:25:01.898Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2023-07-01T11:41:09.818Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2023-07-01T11:41:09.819Z] > authorizing via signed-in user (divyapatidar28178@gmail.com)
+[debug] [2023-09-09T08:25:02.266Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-09T08:25:02.267Z] > authorizing via signed-in user (divyapatidar28178@gmail.com)
 [info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
-[debug] [2023-07-01T11:41:09.870Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-07-01T11:41:09.871Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-07-01T11:41:09.871Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[debug] [2023-07-01T11:41:09.942Z] [hub] writing locator at C:\Users\JEETEN~1\AppData\Local\Temp\hub-e-clone-d2cad.json
-[debug] [2023-07-01T11:41:10.029Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-07-01T11:41:10.029Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2023-07-01T11:41:10.029Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[debug] [2023-09-09T08:25:02.284Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-09-09T08:25:02.284Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-09-09T08:25:02.285Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-09-09T08:25:02.323Z] [hub] writing locator at C:\Users\JEETEN~1\AppData\Local\Temp\hub-e-clone-d2cad.json
+[debug] [2023-09-09T08:25:02.397Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-09-09T08:25:02.398Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-09-09T08:25:02.398Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
 [warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
-[debug] [2023-07-01T11:41:10.070Z] defaultcredentials: writing to file C:\Users\Jeetendra Patidar\AppData\Roaming\firebase\divyapatidar28178_gmail_com_application_default_credentials.json
-[debug] [2023-07-01T11:41:10.136Z] Setting GAC to C:\Users\Jeetendra Patidar\AppData\Roaming\firebase\divyapatidar28178_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Jeetendra Patidar\\AppData\\Roaming\\firebase\\divyapatidar28178_gmail_com_application_default_credentials.json"}}
-[debug] [2023-07-01T11:41:10.140Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/adminSdkConfig [none]
-[debug] [2023-07-01T11:41:11.025Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/adminSdkConfig 200
-[debug] [2023-07-01T11:41:11.026Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/adminSdkConfig {"projectId":"e-clone-d2cad","storageBucket":"e-clone-d2cad.appspot.com"}
-[debug] [2023-07-01T11:41:11.250Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-clone-d2cad/sites 
-[debug] [2023-07-01T11:41:12.587Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-clone-d2cad/sites 200
-[debug] [2023-07-01T11:41:12.588Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-clone-d2cad/sites {"sites":[{"name":"projects/e-clone-d2cad/sites/e-clone-d2cad","defaultUrl":"https://e-clone-d2cad.web.app","appId":"1:699541427477:web:ff222ab9c169003b3b451c","type":"DEFAULT_SITE"}]}
-[debug] [2023-07-01T11:41:12.588Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/webApps/1:699541427477:web:ff222ab9c169003b3b451c/config [none]
-[debug] [2023-07-01T11:41:14.369Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/webApps/1:699541427477:web:ff222ab9c169003b3b451c/config 200
-[debug] [2023-07-01T11:41:14.369Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/webApps/1:699541427477:web:ff222ab9c169003b3b451c/config {"projectId":"e-clone-d2cad","appId":"1:699541427477:web:ff222ab9c169003b3b451c","storageBucket":"e-clone-d2cad.appspot.com","apiKey":"AIzaSyAx_MssGiysoqsIu835fLt9CuBthpKOuXA","authDomain":"e-clone-d2cad.firebaseapp.com","messagingSenderId":"699541427477","measurementId":"G-M7QSFMPSZN"}
-[debug] [2023-07-01T11:41:14.785Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad [none]
-[debug] [2023-07-01T11:41:16.155Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad 200
-[debug] [2023-07-01T11:41:16.155Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad {"projectId":"e-clone-d2cad","projectNumber":"699541427477","displayName":"AMAZONE-CLONE","name":"projects/e-clone-d2cad","resources":{"hostingSite":"e-clone-d2cad"},"state":"ACTIVE","etag":"1_1c31fb8b-1e01-49cb-9143-73a0387b35cc"}
+[debug] [2023-09-09T08:25:02.407Z] defaultcredentials: writing to file C:\Users\Jeetendra Patidar\AppData\Roaming\firebase\divyapatidar28178_gmail_com_application_default_credentials.json
+[debug] [2023-09-09T08:25:02.414Z] Setting GAC to C:\Users\Jeetendra Patidar\AppData\Roaming\firebase\divyapatidar28178_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Jeetendra Patidar\\AppData\\Roaming\\firebase\\divyapatidar28178_gmail_com_application_default_credentials.json"}}
+[debug] [2023-09-09T08:25:02.417Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/adminSdkConfig [none]
+[debug] [2023-09-09T08:25:03.264Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/adminSdkConfig 200
+[debug] [2023-09-09T08:25:03.264Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/adminSdkConfig {"projectId":"e-clone-d2cad","storageBucket":"e-clone-d2cad.appspot.com"}
+[debug] [2023-09-09T08:25:03.333Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-clone-d2cad/sites 
+[debug] [2023-09-09T08:25:04.637Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-clone-d2cad/sites 200
+[debug] [2023-09-09T08:25:04.637Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-clone-d2cad/sites {"sites":[{"name":"projects/e-clone-d2cad/sites/e-clone-d2cad","defaultUrl":"https://e-clone-d2cad.web.app","appId":"1:699541427477:web:ff222ab9c169003b3b451c","type":"DEFAULT_SITE"}]}
+[debug] [2023-09-09T08:25:04.637Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/webApps/1:699541427477:web:ff222ab9c169003b3b451c/config [none]
+[debug] [2023-09-09T08:25:05.766Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/webApps/1:699541427477:web:ff222ab9c169003b3b451c/config 200
+[debug] [2023-09-09T08:25:05.767Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/webApps/1:699541427477:web:ff222ab9c169003b3b451c/config {"projectId":"e-clone-d2cad","appId":"1:699541427477:web:ff222ab9c169003b3b451c","storageBucket":"e-clone-d2cad.appspot.com","apiKey":"AIzaSyAx_MssGiysoqsIu835fLt9CuBthpKOuXA","authDomain":"e-clone-d2cad.firebaseapp.com","messagingSenderId":"699541427477","measurementId":"G-M7QSFMPSZN"}
+[debug] [2023-09-09T08:25:05.838Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad [none]
+[debug] [2023-09-09T08:25:06.547Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad 200
+[debug] [2023-09-09T08:25:06.547Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad {"projectId":"e-clone-d2cad","projectNumber":"699541427477","displayName":"AMAZONE-CLONE","name":"projects/e-clone-d2cad","resources":{"hostingSite":"e-clone-d2cad"},"state":"ACTIVE","etag":"1_a061e4f7-1171-475d-a6db-cc43854d007b"}
 [info] i  hosting[e-clone-d2cad]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
 [info] +  hosting[e-clone-d2cad]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
-[debug] [2023-07-01T11:41:16.350Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2023-07-01T11:41:16.351Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2023-07-01T11:41:16.351Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Jeetendra Patidar\\.cache\\firebase\\emulators\\ui-v1.11.6\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Jeetendra Patidar\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.6\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[debug] [2023-09-09T08:25:06.664Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-09-09T08:25:06.664Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-09-09T08:25:06.664Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Jeetendra Patidar\\.cache\\firebase\\emulators\\ui-v1.11.6\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Jeetendra Patidar\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.6\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
 [info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
-[debug] [2023-07-01T11:41:16.750Z] Web / API server started at 127.0.0.1:4000
+[debug] [2023-09-09T08:25:07.012Z] Web / API server started at 127.0.0.1:4000
  {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
-[debug] [2023-07-01T11:41:16.751Z] Web / API server started at ::1:4000
+[debug] [2023-09-09T08:25:07.012Z] Web / API server started at ::1:4000
  {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
 [info] i  functions: Watching "C:\Users\Jeetendra Patidar\Desktop\app clone project\amazone-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\" for Cloud Functions..."}}
-[debug] [2023-07-01T11:41:16.968Z] Validating nodejs source
-[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
-[debug] [2023-07-01T11:41:19.544Z] > [functions] package.json contents: {
+[debug] [2023-09-09T08:25:07.229Z] Validating nodejs source
+[debug] [2023-09-09T08:25:17.277Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1112:20)
+    at Object.spawnSync (node:child_process:827:24)
+    at Function.spawnSync [as sync] (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:84:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:296:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:325:34)
+    at async FunctionsEmulator.connect (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:262:13)
+    at async Object.startAll (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:562:13)
+[debug] [2023-09-09T08:25:17.279Z] > [functions] package.json contents: {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
     "lint": "eslint .",
     "serve": "firebase emulators:start --only functions",
     "shell": "firebase functions:shell",
-    "start": "npm run shell",
+    "start": "node index.js",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log"
   },
@@ -75,12 +85,12 @@
   },
   "private": true
 }
-[debug] [2023-07-01T11:41:19.544Z] Building nodejs source
-[debug] [2023-07-01T11:41:19.544Z] Failed to find version of module node: reached end of search path C:\Users\Jeetendra Patidar\Desktop\app clone project\amazone-clone\functions\node_modules
+[debug] [2023-09-09T08:25:17.280Z] Building nodejs source
+[debug] [2023-09-09T08:25:17.281Z] Failed to find version of module node: reached end of search path C:\Users\Jeetendra Patidar\Desktop\app clone project\amazone-clone\functions\node_modules
 [info] +  functions: Using node@16 from host. 
-[debug] [2023-07-01T11:41:19.547Z] Could not find functions.yaml. Must use http discovery
-[debug] [2023-07-01T11:41:19.557Z] Found firebase-functions binary at 'C:\Users\Jeetendra Patidar\Desktop\app clone project\amazone-clone\functions\node_modules\.bin\firebase-functions'
-[info] Serving at port 8295
+[debug] [2023-09-09T08:25:17.314Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-09-09T08:25:17.330Z] Found firebase-functions binary at 'C:\Users\Jeetendra Patidar\Desktop\app clone project\amazone-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8310
 
 [info] shutdown requested via /__/quitquitquit
 
@@ -103,9 +113,57 @@
 
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
-[debug] [2023-07-01T11:44:12.072Z] File C:\Users\Jeetendra Patidar\Desktop\app clone project\amazone-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\index.js changed, reloading triggers"}}
-[debug] [2023-07-01T11:44:13.086Z] Validating nodejs source
-[debug] [2023-07-01T11:44:23.259Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+[debug] [2023-09-09T08:27:12.375Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-09-09T08:27:12.374Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-09-09T08:27:12.376Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-09-09T08:27:12.374Z"],"workRunningCount":1}
+[debug] [2023-09-09T08:27:12.379Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-09-09T08:42:44.920Z] ----------------------------------------------------------------------
+[debug] [2023-09-09T08:42:44.923Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-09-09T08:42:44.923Z] CLI Version:   12.4.2
+[debug] [2023-09-09T08:42:44.924Z] Platform:      win32
+[debug] [2023-09-09T08:42:44.924Z] Node Version:  v16.17.1
+[debug] [2023-09-09T08:42:44.965Z] Time:          Sat Sep 09 2023 14:12:44 GMT+0530 (India Standard Time)
+[debug] [2023-09-09T08:42:44.966Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-09T08:42:45.249Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-09T08:42:45.250Z] > authorizing via signed-in user (divyapatidar28178@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-09-09T08:42:45.286Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-09-09T08:42:45.286Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2023-09-09T08:42:45.288Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project e-clone-d2cad. This may result in unexpected behavior. 
+[debug] [2023-09-09T08:42:45.438Z] [hub] writing locator at C:\Users\JEETEN~1\AppData\Local\Temp\hub-e-clone-d2cad.json
+[debug] [2023-09-09T08:42:45.483Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-09-09T08:42:45.484Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-09-09T08:42:45.484Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-09-09T08:42:45.530Z] defaultcredentials: writing to file C:\Users\Jeetendra Patidar\AppData\Roaming\firebase\divyapatidar28178_gmail_com_application_default_credentials.json
+[debug] [2023-09-09T08:42:45.535Z] Setting GAC to C:\Users\Jeetendra Patidar\AppData\Roaming\firebase\divyapatidar28178_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Jeetendra Patidar\\AppData\\Roaming\\firebase\\divyapatidar28178_gmail_com_application_default_credentials.json"}}
+[debug] [2023-09-09T08:42:45.538Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/adminSdkConfig [none]
+[debug] [2023-09-09T08:42:46.454Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/adminSdkConfig 200
+[debug] [2023-09-09T08:42:46.455Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/adminSdkConfig {"projectId":"e-clone-d2cad","storageBucket":"e-clone-d2cad.appspot.com"}
+[debug] [2023-09-09T08:42:46.684Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-clone-d2cad/sites 
+[debug] [2023-09-09T08:42:47.955Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-clone-d2cad/sites 200
+[debug] [2023-09-09T08:42:47.955Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/e-clone-d2cad/sites {"sites":[{"name":"projects/e-clone-d2cad/sites/e-clone-d2cad","defaultUrl":"https://e-clone-d2cad.web.app","appId":"1:699541427477:web:ff222ab9c169003b3b451c","type":"DEFAULT_SITE"}]}
+[debug] [2023-09-09T08:42:47.956Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/webApps/1:699541427477:web:ff222ab9c169003b3b451c/config [none]
+[debug] [2023-09-09T08:42:49.153Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/webApps/1:699541427477:web:ff222ab9c169003b3b451c/config 200
+[debug] [2023-09-09T08:42:49.153Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad/webApps/1:699541427477:web:ff222ab9c169003b3b451c/config {"projectId":"e-clone-d2cad","appId":"1:699541427477:web:ff222ab9c169003b3b451c","storageBucket":"e-clone-d2cad.appspot.com","apiKey":"AIzaSyAx_MssGiysoqsIu835fLt9CuBthpKOuXA","authDomain":"e-clone-d2cad.firebaseapp.com","messagingSenderId":"699541427477","measurementId":"G-M7QSFMPSZN"}
+[debug] [2023-09-09T08:42:49.265Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad [none]
+[debug] [2023-09-09T08:42:49.935Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad 200
+[debug] [2023-09-09T08:42:49.935Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/e-clone-d2cad {"projectId":"e-clone-d2cad","projectNumber":"699541427477","displayName":"AMAZONE-CLONE","name":"projects/e-clone-d2cad","resources":{"hostingSite":"e-clone-d2cad"},"state":"ACTIVE","etag":"1_a061e4f7-1171-475d-a6db-cc43854d007b"}
+[info] i  hosting[e-clone-d2cad]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[e-clone-d2cad]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-09-09T08:42:50.087Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-09-09T08:42:50.087Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-09-09T08:42:50.087Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Jeetendra Patidar\\.cache\\firebase\\emulators\\ui-v1.11.6\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Jeetendra Patidar\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.6\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-09-09T08:42:51.551Z] Web / API server started at 127.0.0.1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4001\n"}}
+[debug] [2023-09-09T08:42:51.551Z] Web / API server started at ::1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4001\n"}}
+[info] i  functions: Watching "C:\Users\Jeetendra Patidar\Desktop\app clone project\amazone-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\" for Cloud Functions..."}}
+[debug] [2023-09-09T08:42:51.741Z] Validating nodejs source
+[debug] [2023-09-09T08:43:01.857Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
     at Object.spawnSync (node:internal/child_process:1112:20)
     at Object.spawnSync (node:child_process:827:24)
     at Function.spawnSync [as sync] (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
@@ -114,14 +172,16 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
     at Delegate.validate (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:84:20)
     at FunctionsEmulator.discoverTriggers (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:296:35)
     at async FunctionsEmulator.loadTriggers (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:325:34)
-[debug] [2023-07-01T11:44:23.280Z] > [functions] package.json contents: {
+    at async FunctionsEmulator.connect (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:262:13)
+    at async Object.startAll (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:562:13)
+[debug] [2023-09-09T08:43:01.858Z] > [functions] package.json contents: {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
     "lint": "eslint .",
     "serve": "firebase emulators:start --only functions",
     "shell": "firebase functions:shell",
-    "start": "npm run shell",
+    "start": "node index.js",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log"
   },
@@ -145,345 +205,30 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
   },
   "private": true
 }
-[debug] [2023-07-01T11:44:23.281Z] Building nodejs source
-[debug] [2023-07-01T11:44:23.282Z] Failed to find version of module node: reached end of search path C:\Users\Jeetendra Patidar\Desktop\app clone project\amazone-clone\functions\node_modules
+[debug] [2023-09-09T08:43:01.859Z] Building nodejs source
+[debug] [2023-09-09T08:43:01.859Z] Failed to find version of module node: reached end of search path C:\Users\Jeetendra Patidar\Desktop\app clone project\amazone-clone\functions\node_modules
 [info] +  functions: Using node@16 from host. 
-[debug] [2023-07-01T11:44:23.291Z] Could not find functions.yaml. Must use http discovery
-[debug] [2023-07-01T11:44:23.302Z] Found firebase-functions binary at 'C:\Users\Jeetendra Patidar\Desktop\app clone project\amazone-clone\functions\node_modules\.bin\firebase-functions'
-[info] Serving at port 8525
+[debug] [2023-09-09T08:43:01.883Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-09-09T08:43:01.910Z] Found firebase-functions binary at 'C:\Users\Jeetendra Patidar\Desktop\app clone project\amazone-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-09-09T08:43:12.260Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8312/__/quitquitquit failed, reason: connect ECONNREFUSED 127.0.0.1:8312 {"message":"request to http://localhost:8312/__/quitquitquit failed, reason: connect ECONNREFUSED 127.0.0.1:8312","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[info] Serving at port 8312
 
-[debug] [2023-07-01T11:44:26.605Z] Got response code 400; body Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module
-[info] shutdown requested via /__/quitquitquit
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4001/               │
+└─────────────────────────────────────────────────────────────┘
 
-[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
-[debug] [2023-07-01T11:44:28.518Z] File C:\Users\Jeetendra Patidar\Desktop\app clone project\amazone-clone\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\index.js changed, reloading triggers"}}
-[debug] [2023-07-01T11:44:29.522Z] Validating nodejs source
-[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
-[debug] [2023-07-01T11:44:33.456Z] > [functions] package.json contents: {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
-  "scripts": {
-    "lint": "eslint .",
-    "serve": "firebase emulators:start --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
-  },
-  "engines": {
-    "node": "16"
-  },
-  "main": "index.js",
-  "dependencies": {
-    "@types/stripejs": "^3.0.6",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "firebase-admin": "^10.0.2",
-    "firebase-functions": "^4.0.1",
-    "stripe": "^8.222.0"
-  },
-  "devDependencies": {
-    "@types/stripe": "^8.0.417",
-    "eslint": "^8.9.0",
-    "eslint-config-google": "^0.14.0",
-    "firebase-functions-test": "^0.2.0"
-  },
-  "private": true
-}
-[debug] [2023-07-01T11:44:33.457Z] Building nodejs source
-[debug] [2023-07-01T11:44:33.457Z] Failed to find version of module node: reached end of search path C:\Users\Jeetendra Patidar\Desktop\app clone project\amazone-clone\functions\node_modules
-[info] +  functions: Using node@16 from host. 
-[debug] [2023-07-01T11:44:33.480Z] Could not find functions.yaml. Must use http discovery
-[debug] [2023-07-01T11:44:33.495Z] Found firebase-functions binary at 'C:\Users\Jeetendra Patidar\Desktop\app clone project\amazone-clone\functions\node_modules\.bin\firebase-functions'
-[info] Serving at port 8990
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4001/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
 
-[debug] [2023-07-01T11:44:37.723Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
-[info] shutdown requested via /__/quitquitquit
-
-[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
-[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/e-clone-d2cad/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/e-clone-d2cad/us-central1/api)."}}
-[debug] [2023-07-01T11:45:51.396Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:45:51.395Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:45:51.396Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:45:51.395Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:45:51.397Z] Accepted request OPTIONS /e-clone-d2cad/us-central1/api/payment/create?total=38700 --> us-central1-api
-[debug] [2023-07-01T11:45:51.440Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:45:51.441Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=38700, mapping to path=/payment/create?total=38700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=38700, mapping to path=/payment/create?total=38700"}}
-[debug] [2023-07-01T11:45:51.531Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
-[debug] [2023-07-01T11:45:51.533Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
-[debug] [2023-07-01T11:45:51.536Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:45:51.536Z"],"queueLength":1,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:45:51.395Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:45:51.537Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:45:51.395Z","/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:45:51.536Z"],"workRunningCount":2}
-[debug] [2023-07-01T11:45:51.537Z] Accepted request OPTIONS /e-clone-d2cad/us-central1/api/payment/create?total=38700 --> us-central1-api
-[debug] [2023-07-01T11:45:51.538Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:45:51.539Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=38700, mapping to path=/payment/create?total=38700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=38700, mapping to path=/payment/create?total=38700"}}
-[debug] [2023-07-01T11:45:51.545Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
-[debug] [2023-07-01T11:45:51.546Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
-[debug] [2023-07-01T11:46:13.719Z] [runtime-status] [8112] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8112] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
-[debug] [2023-07-01T11:46:13.719Z] [runtime-status] [9028] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9028] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
-[debug] [2023-07-01T11:46:13.721Z] [runtime-status] [8112] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.0.1","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8112] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.0.1\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
-[debug] [2023-07-01T11:46:13.721Z] [runtime-status] [9028] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.0.1","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9028] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.0.1\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
-[debug] [2023-07-01T11:46:13.721Z] [runtime-status] [8112] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8112] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
-[debug] [2023-07-01T11:46:13.721Z] [runtime-status] [9028] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9028] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
-[debug] [2023-07-01T11:46:13.723Z] [runtime-status] [8112] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.0.1","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8112] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.0.1\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
-[debug] [2023-07-01T11:46:13.723Z] [runtime-status] [9028] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.0.1","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9028] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.0.1\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
-[debug] [2023-07-01T11:46:14.020Z] [runtime-status] [8112] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8112] Checked functions.config() {\"config\":{}}"}}
-[debug] [2023-07-01T11:46:14.021Z] [runtime-status] [8112] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.0.1","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8112] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.0.1\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
-[debug] [2023-07-01T11:46:14.022Z] [runtime-status] [8112] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.0.1","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8112] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.0.1\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
-[debug] [2023-07-01T11:46:14.022Z] [runtime-status] [9028] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9028] Checked functions.config() {\"config\":{}}"}}
-[debug] [2023-07-01T11:46:14.022Z] [runtime-status] [9028] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.0.1","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9028] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.0.1\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
-[debug] [2023-07-01T11:46:14.023Z] [runtime-status] [9028] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.0.1","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9028] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.0.1\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
-[debug] [2023-07-01T11:46:14.024Z] [runtime-status] [8112] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8112] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
-[debug] [2023-07-01T11:46:14.059Z] [runtime-status] [9028] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9028] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
-[debug] [2023-07-01T11:46:14.094Z] [runtime-status] [8112] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.0.1","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8112] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.0.1\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
-[debug] [2023-07-01T11:46:14.095Z] [runtime-status] [8112] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8112] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
-[debug] [2023-07-01T11:46:14.095Z] [runtime-status] [9028] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.0.1","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9028] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.0.1\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
-[debug] [2023-07-01T11:46:14.095Z] [runtime-status] [9028] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9028] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
-[debug] [2023-07-01T11:46:14.418Z] [runtime-status] [8112] Functions runtime initialized. {"cwd":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions","node_version":"16.17.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8112] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\",\"node_version\":\"16.17.1\"}"}}
-[debug] [2023-07-01T11:46:14.419Z] [runtime-status] [9028] Functions runtime initialized. {"cwd":"C:\\Users\\Jeetendra Patidar\\Desktop\\app clone project\\amazone-clone\\functions","node_version":"16.17.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9028] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Jeetendra Patidar\\\\Desktop\\\\app clone project\\\\amazone-clone\\\\functions\",\"node_version\":\"16.17.1\"}"}}
-[debug] [2023-07-01T11:46:14.420Z] [runtime-status] [9028] Listening to port: \\?\pipe\fire_emu_de537a59708697fc {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [9028] Listening to port: \\\\?\\pipe\\fire_emu_de537a59708697fc"}}
-[debug] [2023-07-01T11:46:14.420Z] [runtime-status] [8112] Listening to port: \\?\pipe\fire_emu_4d14090f3f80e815 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [8112] Listening to port: \\\\?\\pipe\\fire_emu_4d14090f3f80e815"}}
-[debug] [2023-07-01T11:46:14.466Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: IDLE"}}
-[debug] [2023-07-01T11:46:14.466Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:46:14.468Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: BUSY"}}
-[debug] [2023-07-01T11:46:14.470Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE"}}
-[debug] [2023-07-01T11:46:14.470Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:46:14.471Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY"}}
-[debug] [2023-07-01T11:46:14.484Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 17.0269ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 17.0269ms"}}
-[debug] [2023-07-01T11:46:14.485Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: IDLE"}}
-[debug] [2023-07-01T11:46:14.485Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:46:14.485Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:46:14.486Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:45:51.395Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:46:14.490Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:14.490Z"],"queueLength":1,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:45:51.395Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:46:14.490Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:45:51.395Z","/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:14.490Z"],"workRunningCount":2}
-[debug] [2023-07-01T11:46:14.490Z] Accepted request POST /e-clone-d2cad/us-central1/api/payment/create?total=38700 --> us-central1-api
-[debug] [2023-07-01T11:46:14.492Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:46:14.493Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=38700, mapping to path=/payment/create?total=38700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=38700, mapping to path=/payment/create?total=38700"}}
-[debug] [2023-07-01T11:46:14.493Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:46:14.493Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: BUSY"}}
-[debug] [2023-07-01T11:46:14.495Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 24.2831ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 24.2831ms"}}
-[debug] [2023-07-01T11:46:14.496Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE"}}
-[debug] [2023-07-01T11:46:14.496Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:46:14.496Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:46:14.496Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:14.490Z"],"workRunningCount":1}
-[info] >  Payment request Received Yeeehh!! for this amount >>> 38700 {"user":"Payment request Received Yeeehh!! for this amount >>> 38700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request Received Yeeehh!! for this amount >>> 38700"}}
-[debug] [2023-07-01T11:46:14.499Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:14.499Z"],"queueLength":1,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:14.490Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:46:14.500Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:14.490Z","/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:14.499Z"],"workRunningCount":2}
-[debug] [2023-07-01T11:46:14.500Z] Accepted request POST /e-clone-d2cad/us-central1/api/payment/create?total=38700 --> us-central1-api
-[debug] [2023-07-01T11:46:14.502Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:46:14.502Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=38700, mapping to path=/payment/create?total=38700 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=38700, mapping to path=/payment/create?total=38700"}}
-[debug] [2023-07-01T11:46:14.502Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:46:14.504Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY"}}
-[info] >  Payment request Received Yeeehh!! for this amount >>> 38700 {"user":"Payment request Received Yeeehh!! for this amount >>> 38700","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request Received Yeeehh!! for this amount >>> 38700"}}
-[debug] [2023-07-01T11:46:15.224Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 730.8636ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 730.8636ms"}}
-[debug] [2023-07-01T11:46:15.255Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: IDLE"}}
-[debug] [2023-07-01T11:46:15.255Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:46:15.255Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:46:15.255Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:14.499Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:46:15.357Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 853.8756ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 853.8756ms"}}
-[debug] [2023-07-01T11:46:15.359Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE"}}
-[debug] [2023-07-01T11:46:15.359Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:46:15.360Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:46:15.360Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:46:33.614Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:33.614Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:46:33.614Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:33.614Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:46:33.614Z] Accepted request OPTIONS /e-clone-d2cad/us-central1/api/payment/create?total=64900 --> us-central1-api
-[debug] [2023-07-01T11:46:33.616Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:46:33.616Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=64900, mapping to path=/payment/create?total=64900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=64900, mapping to path=/payment/create?total=64900"}}
-[debug] [2023-07-01T11:46:33.616Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:46:33.617Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY"}}
-[debug] [2023-07-01T11:46:33.621Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 4.0333ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 4.0333ms"}}
-[debug] [2023-07-01T11:46:33.622Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE"}}
-[debug] [2023-07-01T11:46:33.622Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:46:33.622Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:46:33.622Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:46:33.623Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:33.623Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:46:33.624Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:33.623Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:46:33.624Z] Accepted request POST /e-clone-d2cad/us-central1/api/payment/create?total=64900 --> us-central1-api
-[debug] [2023-07-01T11:46:33.625Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:46:33.626Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=64900, mapping to path=/payment/create?total=64900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=64900, mapping to path=/payment/create?total=64900"}}
-[debug] [2023-07-01T11:46:33.626Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:46:33.626Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY"}}
-[debug] [2023-07-01T11:46:33.632Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:33.632Z"],"queueLength":1,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:33.623Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:46:33.632Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:33.623Z","/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:33.632Z"],"workRunningCount":2}
-[debug] [2023-07-01T11:46:33.632Z] Accepted request POST /e-clone-d2cad/us-central1/api/payment/create?total=64900 --> us-central1-api
-[debug] [2023-07-01T11:46:33.634Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:46:33.634Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=64900, mapping to path=/payment/create?total=64900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=64900, mapping to path=/payment/create?total=64900"}}
-[debug] [2023-07-01T11:46:33.635Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:46:33.638Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: BUSY"}}
-[info] >  Payment request Received Yeeehh!! for this amount >>> 64900 {"user":"Payment request Received Yeeehh!! for this amount >>> 64900","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request Received Yeeehh!! for this amount >>> 64900"}}
-[info] >  Payment request Received Yeeehh!! for this amount >>> 64900 {"user":"Payment request Received Yeeehh!! for this amount >>> 64900","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request Received Yeeehh!! for this amount >>> 64900"}}
-[debug] [2023-07-01T11:46:33.959Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 332.9694ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 332.9694ms"}}
-[debug] [2023-07-01T11:46:33.960Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE"}}
-[debug] [2023-07-01T11:46:33.961Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:46:33.961Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:46:33.961Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:46:33.632Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:46:34.048Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 410.8417ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 410.8417ms"}}
-[debug] [2023-07-01T11:46:34.050Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: IDLE"}}
-[debug] [2023-07-01T11:46:34.051Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:46:34.051Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:46:34.051Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:47:11.708Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:47:11.708Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:47:11.709Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:47:11.708Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:47:11.709Z] Accepted request OPTIONS /e-clone-d2cad/us-central1/api/payment/create?total=5888900 --> us-central1-api
-[debug] [2023-07-01T11:47:11.710Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:47:11.711Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=5888900, mapping to path=/payment/create?total=5888900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=5888900, mapping to path=/payment/create?total=5888900"}}
-[debug] [2023-07-01T11:47:11.711Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:47:11.712Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY"}}
-[debug] [2023-07-01T11:47:11.715Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 3.4358ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 3.4358ms"}}
-[debug] [2023-07-01T11:47:11.716Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE"}}
-[debug] [2023-07-01T11:47:11.716Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:47:11.716Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:47:11.716Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:47:11.717Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:47:11.717Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:47:11.718Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:47:11.717Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:47:11.718Z] Accepted request POST /e-clone-d2cad/us-central1/api/payment/create?total=5888900 --> us-central1-api
-[debug] [2023-07-01T11:47:11.720Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:47:11.720Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=5888900, mapping to path=/payment/create?total=5888900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=5888900, mapping to path=/payment/create?total=5888900"}}
-[debug] [2023-07-01T11:47:11.720Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:47:11.721Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY"}}
-[info] >  Payment request Received Yeeehh!! for this amount >>> 5888900 {"user":"Payment request Received Yeeehh!! for this amount >>> 5888900","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request Received Yeeehh!! for this amount >>> 5888900"}}
-[debug] [2023-07-01T11:47:11.739Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:47:11.739Z"],"queueLength":1,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:47:11.717Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:47:11.739Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:47:11.717Z","/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:47:11.739Z"],"workRunningCount":2}
-[debug] [2023-07-01T11:47:11.739Z] Accepted request POST /e-clone-d2cad/us-central1/api/payment/create?total=5888900 --> us-central1-api
-[debug] [2023-07-01T11:47:11.741Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:47:11.743Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=5888900, mapping to path=/payment/create?total=5888900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=5888900, mapping to path=/payment/create?total=5888900"}}
-[debug] [2023-07-01T11:47:11.743Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:47:11.745Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: BUSY"}}
-[info] >  Payment request Received Yeeehh!! for this amount >>> 5888900 {"user":"Payment request Received Yeeehh!! for this amount >>> 5888900","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request Received Yeeehh!! for this amount >>> 5888900"}}
-[debug] [2023-07-01T11:47:12.035Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 314.2744ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 314.2744ms"}}
-[debug] [2023-07-01T11:47:12.037Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE"}}
-[debug] [2023-07-01T11:47:12.037Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:47:12.037Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:47:12.038Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:47:11.739Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:47:12.053Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 309.2016ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 309.2016ms"}}
-[debug] [2023-07-01T11:47:12.055Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: IDLE"}}
-[debug] [2023-07-01T11:47:12.055Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:47:12.055Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:47:12.055Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:48:06.632Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:48:06.631Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:48:06.632Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:48:06.631Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:48:06.632Z] Accepted request OPTIONS /e-clone-d2cad/us-central1/api/payment/create?total=469800 --> us-central1-api
-[debug] [2023-07-01T11:48:06.637Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:48:06.637Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=469800, mapping to path=/payment/create?total=469800 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=469800, mapping to path=/payment/create?total=469800"}}
-[debug] [2023-07-01T11:48:06.640Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:48:06.657Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY"}}
-[debug] [2023-07-01T11:48:06.660Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:48:06.660Z"],"queueLength":1,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:48:06.631Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:48:06.660Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:48:06.631Z","/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:48:06.660Z"],"workRunningCount":2}
-[debug] [2023-07-01T11:48:06.660Z] Accepted request OPTIONS /e-clone-d2cad/us-central1/api/payment/create?total=469800 --> us-central1-api
-[debug] [2023-07-01T11:48:06.662Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:48:06.662Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=469800, mapping to path=/payment/create?total=469800 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=469800, mapping to path=/payment/create?total=469800"}}
-[debug] [2023-07-01T11:48:06.663Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:48:06.664Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: BUSY"}}
-[debug] [2023-07-01T11:48:06.669Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 5.6286ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 5.6286ms"}}
-[debug] [2023-07-01T11:48:06.671Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: IDLE"}}
-[debug] [2023-07-01T11:48:06.671Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:48:06.671Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:48:06.672Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:48:06.631Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:48:06.673Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 16.3586ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 16.3586ms"}}
-[debug] [2023-07-01T11:48:06.674Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE"}}
-[debug] [2023-07-01T11:48:06.674Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:48:06.674Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:48:06.674Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:48:06.675Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:48:06.675Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:48:06.675Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:48:06.675Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:48:06.675Z] Accepted request POST /e-clone-d2cad/us-central1/api/payment/create?total=469800 --> us-central1-api
-[debug] [2023-07-01T11:48:06.678Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:48:06.678Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=469800, mapping to path=/payment/create?total=469800 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=469800, mapping to path=/payment/create?total=469800"}}
-[debug] [2023-07-01T11:48:06.678Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:48:06.679Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY"}}
-[debug] [2023-07-01T11:48:06.681Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:48:06.681Z"],"queueLength":1,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:48:06.675Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:48:06.681Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:48:06.675Z","/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:48:06.681Z"],"workRunningCount":2}
-[debug] [2023-07-01T11:48:06.681Z] Accepted request POST /e-clone-d2cad/us-central1/api/payment/create?total=469800 --> us-central1-api
-[debug] [2023-07-01T11:48:06.683Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:48:06.683Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=469800, mapping to path=/payment/create?total=469800 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=469800, mapping to path=/payment/create?total=469800"}}
-[debug] [2023-07-01T11:48:06.684Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:48:06.700Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: BUSY"}}
-[info] >  Payment request Received Yeeehh!! for this amount >>> 469800 {"user":"Payment request Received Yeeehh!! for this amount >>> 469800","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request Received Yeeehh!! for this amount >>> 469800"}}
-[info] >  Payment request Received Yeeehh!! for this amount >>> 469800 {"user":"Payment request Received Yeeehh!! for this amount >>> 469800","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request Received Yeeehh!! for this amount >>> 469800"}}
-[debug] [2023-07-01T11:48:07.006Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 326.6913ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 326.6913ms"}}
-[debug] [2023-07-01T11:48:07.007Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE"}}
-[debug] [2023-07-01T11:48:07.007Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:48:07.007Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:48:07.008Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:48:06.681Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:48:07.132Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 432.248ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 432.248ms"}}
-[debug] [2023-07-01T11:48:07.134Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: IDLE"}}
-[debug] [2023-07-01T11:48:07.134Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:48:07.135Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:48:07.135Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:51:34.729Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:51:34.729Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:51:34.730Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:51:34.729Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:51:34.730Z] Accepted request OPTIONS /e-clone-d2cad/us-central1/api/payment/create?total=5888900 --> us-central1-api
-[debug] [2023-07-01T11:51:34.809Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:51:34.809Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=5888900, mapping to path=/payment/create?total=5888900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=5888900, mapping to path=/payment/create?total=5888900"}}
-[debug] [2023-07-01T11:51:34.810Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:51:34.811Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY"}}
-[debug] [2023-07-01T11:51:34.814Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 3.6918ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 3.6918ms"}}
-[debug] [2023-07-01T11:51:34.815Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE"}}
-[debug] [2023-07-01T11:51:34.815Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:51:34.815Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:51:34.815Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:51:34.816Z] [work-queue] {"queuedWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:51:34.816Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:51:34.816Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/e-clone-d2cad/us-central1/api/payment/create-2023-07-01T11:51:34.816Z"],"workRunningCount":1}
-[debug] [2023-07-01T11:51:34.816Z] Accepted request POST /e-clone-d2cad/us-central1/api/payment/create?total=5888900 --> us-central1-api
-[debug] [2023-07-01T11:51:34.819Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2023-07-01T11:51:34.819Z] [functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=5888900, mapping to path=/payment/create?total=5888900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/e-clone-d2cad/us-central1/api/payment/create?total=5888900, mapping to path=/payment/create?total=5888900"}}
-[debug] [2023-07-01T11:51:34.819Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
-[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
-[debug] [2023-07-01T11:51:34.820Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: BUSY"}}
-[info] >  Payment request Received Yeeehh!! for this amount >>> 5888900 {"user":"Payment request Received Yeeehh!! for this amount >>> 5888900","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment request Received Yeeehh!! for this amount >>> 5888900"}}
-[debug] [2023-07-01T11:51:35.384Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-api" in 564.1228ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 564.1228ms"}}
-[debug] [2023-07-01T11:51:35.385Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: IDLE"}}
-[debug] [2023-07-01T11:51:35.385Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2023-07-01T11:51:35.385Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2023-07-01T11:51:35.386Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2023-07-01T11:52:34.948Z] Received signal SIGINT (Ctrl-C) 1
-[info]  
-[info] i  emulators: Received SIGINT (Ctrl-C) for the first time. Starting a clean shutdown. 
-[info] i  emulators: Please wait for a clean shutdown or send the SIGINT (Ctrl-C) signal again to stop right now. 
-[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
-[info] i  ui: Stopping Emulator UI {"metadata":{"emulator":{"name":"ui"},"message":"Stopping Emulator UI"}}
-[warn] !  Emulator UI has exited upon receiving signal: SIGINT 
-[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
-[info] i  hosting: Stopping Hosting Emulator {"metadata":{"emulator":{"name":"hosting"},"message":"Stopping Hosting Emulator"}}
-[info] i  eventarc: Stopping Eventarc Emulator {"metadata":{"emulator":{"name":"eventarc"},"message":"Stopping Eventarc Emulator"}}
-[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
-[debug] [2023-07-01T11:52:35.025Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: exited"}}
-[debug] [2023-07-01T11:52:35.025Z] [worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-5b731e9d-b709-4cde-a5ab-bcba265bf3ea]: FINISHED"}}
-[debug] [2023-07-01T11:52:35.025Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: exited"}}
-[debug] [2023-07-01T11:52:35.026Z] [worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-e0831fe9-be2f-4c74-a546-5b501d69c829]: FINISHED"}}
-[info] i  logging: Stopping Logging Emulator {"metadata":{"emulator":{"name":"logging"},"message":"Stopping Logging Emulator"}}
-[debug] [2023-07-01T11:52:41.038Z] Error: Timed out.
-    at Timeout.<anonymous> (C:\Users\Jeetendra Patidar\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
-    at listOnTimeout (node:internal/timers:559:17)
-    at processTimers (node:internal/timers:502:7)
-[error] 
-[error] Error: An unexpected error has occurred.
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
