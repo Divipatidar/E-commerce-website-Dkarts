@@ -12,6 +12,8 @@
 
     "@material-ui/icons": "^4.11.3",
 
+    "@mui/icons-material": "^5.14.9",
+
     "@stripe/react-stripe-js": "^1.13.0",
 
     "@stripe/stripe-js": "^1.42.0",
@@ -38,7 +40,9 @@
 
     "react-router-dom": "^5.3.3",
 
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+
+    "stripe": "^14.11.0"
 
   },
 

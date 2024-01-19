@@ -7,7 +7,7 @@ function Home(){
     return(
         <div className="home"> 
             <div className="home_container">
-                <img  className="home_image" src="https://cdn.mos.cms.futurecdn.net/ZaJyjXsgR3U9zAsdwA4YgH-1600-80.jpg.webp"  alt=""
+                <img  className="home_image" src="https://img.freepik.com/premium-photo/3d-illustration-neon-magnifying-glass-lies-grocery-cart-concept-searching-goods-services-online-stores-marketing-research_116124-12799.jpg"  alt=""
                  /> 
               
               

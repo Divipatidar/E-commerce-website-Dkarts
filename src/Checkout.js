@@ -9,7 +9,7 @@ function Checkout(){
         <div className="checkout">
            <div className="checkout_left">
               <img className="checkout_ad"
-               src="https://bgr.com/wp-content/uploads/2020/10/amazon-prime-day.jpg?quality=82&strip=all&w=1400&h=810&crop=1" 
+               src="https://www.shutterstock.com/image-photo/full-body-portrait-two-idyllic-600nw-2275927771.jpg" 
                alt=""/>
                <div>
                 <h3>Hello,{user?.email}</h3>

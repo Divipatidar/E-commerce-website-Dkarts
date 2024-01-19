@@ -7,10 +7,10 @@
     padding-left: 20px;
 }
 .checkoutproduct_info > button{
-    background: #f0c14b;
+    background: rgb(125, 56, 125);
     border: 1px solid;
     margin-top: 10px;
-    border-color:  #a88734 #9c7e31 #846a29;
+    border-color:  rgb(125, 56, 125);
     color: #111;
 	border-radius: 20px;
 

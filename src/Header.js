@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { useStateValue } from './StateProvider';
 import { auth } from 'firebase';
 import firebase from 'firebase';
+import logo from './images/logo.jpg'
 function Header(){
     const [{basket,user}, dispatch] = useStateValue();
     const handleAuthentication =() =>{
@@ -19,7 +20,7 @@ function Header(){
         <div className="header"> 
             <Link to='/'>
                <img className='header_logo'
-               src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" 
+               src={logo}
                />
             </Link>
             

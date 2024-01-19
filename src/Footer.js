@@ -20,28 +20,28 @@ function Footer() {
           <strong>Get to Know Us</strong>
           <p>Carrers</p>
           <p>Blogs</p>
-          <p>About Amazon</p>
-          <p>Amazon Science</p>
+          <p>About Dkarts</p>
+          <p> Dkarts Science</p>
         </div>
         <div className="footer__column">
           <strong>Make Money with Us</strong>
-          <p>Sell products on Amazon</p>
-          <p>Sell apps on Amazon</p>
+          <p>Sell products on  Dkarts</p>
+          <p>Sell apps on  Dkarts</p>
           <p>Become an Affiliate</p>
           <p>Advertise Your Products</p>
         </div>
         <div className="footer__column">
-          <strong>Amazon Payment Products</strong>
-          <p>Amazon Business Card</p>
+          <strong> Dkarts Payment Products</strong>
+          <p> Dkarts Business Card</p>
           <p>Shop with Points</p>
           <p>Reload Your Balance</p>
-          <p>Amazon Currency Converter</p>
+          <p> DkartsCurrency Converter</p>
         </div>
         <div className="footer__column">
           <strong>Let Us Help You</strong>
-          <p>Amazon and COVID-19</p>
+          <p> Dkarts and COVID-19</p>
           <p>Shipping Rates & Policies</p>
-          <p>Amazon Assistant</p>
+          <p> Dkarts Assistant</p>
           <p>Help</p>
         </div>
       </div>

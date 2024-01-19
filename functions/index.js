@@ -5,8 +5,9 @@ const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 const { request, response } = require("express");
-const secretKey="sk_test_51LrP30SB4nFwNrSIDiXujZBgcbE6emlDmGd9ev6o7J2C4fXv66Aee5yiw0YsV3pkWzSmg5c8XGyQwv8S2GVcIHqm00lj35Y4se";
+const secretKey="sk_test_51OTOY8SDDlIxc91ozFzjIRVYqms2FPnxOE2JMcmRlF0JYLZjNE1Z3qGmNpOtHct5hZ73yHduwzHk2Mp4VgUrKMy600MXjnNx2p";
 const stripe = require("stripe")(secretKey);
+
 
 
 const app = express();

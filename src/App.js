@@ -12,7 +12,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 import Footer from "./Footer";
 import Orders from "./Orders";
-const publicKey="pk_test_51LrP30SB4nFwNrSIfbaFVg9Cr0IlyigCRJ3XIoBEtFbzpVXFe0EfUxhyek1mB5x2rm6VCwpVpyjsJB1zzwJGm7ho00hroGQRqz";
+const publicKey="pk_test_51OTOY8SDDlIxc91o4QNUU76Y5IxfThPwo4aciYGSpxwiX3VkXfgFrND2yGyLwrb3xgVrhZtvcYzScAweu8NoNdK300Bvf09CZL";
 const promise=loadStripe(publicKey);
 
 function App() {

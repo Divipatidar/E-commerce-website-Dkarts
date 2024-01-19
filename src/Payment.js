@@ -52,8 +52,9 @@ function Payment(){
                 card: elements.getElement(CardElement),
             },
             
+            
         }).then(({paymentIntent})=>{
-           
+            console.log('payment',paymentIntent);
             db.collection('users')
             .doc(user?.uid)
             .collection('orders')
